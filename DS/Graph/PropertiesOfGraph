@@ -1,0 +1,24 @@
+Simple graph : a graph having no self loop or multi edges
+
+	max no of edges :								//for simple graph
+		undirected edges : n(n-1)/2
+		directed edges : n(n-1)
+			where n is no of vertices
+
+	I.E.  for dense graph no of edges = O(n^2)
+
+Better use :
+
+		   adjacency matrix for dense graph
+		   adjacenecy list for sparse graph
+
+Simple Path/ Path : no vertices or edge is repeated
+Trail : no edge is repeated but vertex can be repeated like : 
+		
+
+		1<------(2)------->3
+				 ^        |
+				 |        |
+				 |        |
+				 |        |
+				 4<-------5
